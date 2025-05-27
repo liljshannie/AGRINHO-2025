@@ -1,0 +1,164 @@
+/* Reset básico para garantir que o layout tenha uma base consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Cor de fundo e tipografia */
+body {
+    background-color: #f4f4f4; /* Fundo suave, tons claros para o site */
+    color: #333; /* Texto principal em um tom escuro, para bom contraste */
+    font-family: 'Georgia', serif; /* Tipografia elegante para o corpo do texto */
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #2d3e3f; /* Cor escura para dar elegância e destaque */
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 5px solid #5a7473; /* Linha sutil para separar o cabeçalho do conteúdo */
+}
+
+header h1 {
+    font-family: 'Courier New', monospace; /* Fonte artística, remetendo ao clássico e ao moderno */
+    font-size: 3rem;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Navegação */
+nav ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #5a7473;
+}
+
+/* Estilo das seções */
+section.conteudo {
+    margin: 40px 0;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Georgia', serif;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+article {
+    background-color: #fff;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+article h3 {
+    font-size: 1.5rem;
+    font-family: 'Courier New', monospace;
+    color: #5a7473;
+    margin-bottom: 10px;
+}
+
+article p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Estilo do botão CTA */
+.cta-button {
+    display: inline-block;
+    background-color: #4CAF50; /* Cor suave e orgânica, representando natureza */
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #45a049;
+}
+
+.cta-button i {
+    margin-left: 10px;
+}
+
+/* Estilo para o footer */
+footer {
+    background-color: #2d3e3f;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 5px solid #5a7473;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #4CAF50;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #ccc;
+}
+
+/* Estilo do iframe */
+iframe {
+    border-radius: 10px;
+    border: 0;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
